@@ -1,0 +1,14 @@
+{
+    "name": "TabSaver",
+    "version": "1.0.0",
+    "description": "Save chrome tabs",
+    "manifest_version": 3,
+    "author": "Ludwig Lechtreck",
+    "permissions":[
+        "storage"
+    ],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "TABVAULT"
+    }
+}

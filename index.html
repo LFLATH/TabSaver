@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            max-width: 500px;
+            min-width: 500px;
+            max-height: 250px;
+            min-height: 250px;
+            margin:auto
+        }
+        .tabList{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #list {
+            list-style-type: none;
+        }
+        .fas {
+            margin-left: 1em;
+        }
+          
+    </style>
+  <body>
+    <div class="tabList">
+      <h1>TAB VAULT</h1>
+      <div class="add-element">
+        <input type="text" id="tab" placeholder="Add a new Tab" />
+        <button id="btn">Add</button>
+      </div>
+      <div class="element-list">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
